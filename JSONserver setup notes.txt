@@ -1,0 +1,39 @@
+
+  537  mkdir json
+  538  cd json/
+  539  npm init
+  540  ls
+  541  npm install express
+  542  ls
+  543  cd node_modules/
+  544  ls
+  545  cd ..
+  546  ls
+  547  touch index.js
+  548  npm server.js
+  549  npmjs i ejs
+  550  npm i ejs
+  551  npm i axios
+
+const express = require('express');
+const app = express();
+const  port = 3000;
+
+//Middleware
+app.set('view engine', "ejs");
+
+//Routes
+
+//root route
+app.get('/', function (req, res) {
+  res.send('Hello World')
+});
+
+/*boogers route
+app.get('/boogers', function(req,res){
+    res.render('index.ejs');
+});*/
+
+app.listen(port, function () {
+    console.log("server is live on port:" + port)
+});

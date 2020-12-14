@@ -1,0 +1,28 @@
+{
+  "name": "newjson",
+  "version": "0.0.1",
+  "description": "just a test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "json"
+  },
+  "keywords": [
+    "new",
+    "test",
+    "json"
+  ],
+  "author": "gonk",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cjs": "0.0.11",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.6"
+  }
+}
